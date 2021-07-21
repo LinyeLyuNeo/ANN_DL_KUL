@@ -1,0 +1,31 @@
+the pdf says that the report should be based on sections 2 and 5. So the report doesn't have to cover all exercises?
+That is correct. Just to be clear, you can work on the exercises together however the final reports have to be written and submitted individually.
+
+
+what is the deadline for submitting the report and how to submit the report?
+The exact date will be communicated however the deadline is always right before the exams in June. Meaning end of May or beginning of June.
+
+
+Is there a template/guidelines for what needs to be covered in the reports?
+There is no fixed template. It's enough to create a section for each question. The focus is on understanding, this means that you should answer the question and, even more important, explain why you observe this.
+
+
+What is the Best Linear Fit line? I mean, the almost transparent dotted line. When I run the algorml1.m we have 9 graphs on the result and the graphs on the 2nd and 3rd columns there are dotted lines, which are called Best Linear Fit line But I can not see how it is generated and what is the meaning of it?
+On those plots, you show the prediction in function of the targets. In de ideal case (perfect prediction), these should perfectly match. And thus your scatter plot would be a line = Best linear fit 
+
+
+if the output of your network is the same as the target output (this is the ideal situation) 
+on exercise 2 the R value that is plotted, what does it express?
+It's the correlation coefficient for the linear regression A perfect correlation would give a value of 1
+
+
+what is the difference between the red line and the dotted line?
+The red line is a linear regression fitted on the prediction and targets (scatter plot). The first coefficient should be one or a perfect correlation. The dashed line is the desired linear regression line. 
+
+
+Are we supposed to use the R value to decide on which algorithm is best?
+YES. You can also check the methods with and without noise. You can play with the amount on noise in the code. You can also change the number of epochs and check which algorithm converges the fastest. In practice there are also alternatives to this evaluation, a commen other metric that is used is the mean squared error between y and y'
+
+
+What is the difference between postreg and postregm?
+There is no real difference between the postreg and postregm
